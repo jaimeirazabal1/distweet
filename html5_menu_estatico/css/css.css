@@ -1,0 +1,85 @@
+/* CSS Document */
+body{
+	background:#00CCFF;
+	}
+#menu{
+	position:fixed;
+	margin-left:90px;
+	top:150px;
+	width:400px;
+	height:420px;
+	background:#FFF;
+	float:left;
+	}
+#inner{
+	
+	border-radius:0px 10px 0px 0px;
+	position:absolute;
+	top:10px;
+	left:10px;
+	border:dashed 3px;
+	width:350px;
+	height:390px;
+	background:url(../images/imagen1.jpg) center;
+	overflow:hidden;
+	}
+#inner2{
+	border-radius:0px 10px 0px 0px;
+	position:absolute;
+	top:10px;
+	left:10px;
+	border:dashed 3px;
+	width:370px;
+	height:390px;
+	background:url(../images/imagen2.jpg) center;
+	}	
+#contenido{
+	position:relative;
+	top:140px;
+	left:540px;
+	width:500px;
+	height:auto;
+	padding:10px;
+	background:#CFF;
+	box-shadow:0px 0px 15px 0px;
+	border-radius:10px;
+	}
+#contenedor{
+	
+	margin:auto;
+	width:1100px;
+	height:auto;
+	box-shadow:0px 0px 105px 0px ;
+	background:-webkit-linear-gradient(top,white 30%,#0CF);
+	border-radius:0px 0px 10px 10px;
+	overflow:hidden;
+	}
+#header{
+	text-align:center;
+	box-shadow:0px 10px 0px 0px #CCCCCC;
+	border-radius:0px 0px 10px 10px;
+	position:fixed;
+	top:0px;
+	width:1100px;
+	height:100px;
+	background:#333;
+	}
+ul li {
+	display:inline-block;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+ul li a:hover{
+	background:#999;
+	border-radius:0px 0px 10px 10px;
+	}	
+ul a{
+	text-decoration:none;
+	color:white;
+	font:"Comic Sans MS", cursive;
+	font-size:xx-large;
+	width:100px;
+	height:50px;
+	padding:30px;
+	}			
